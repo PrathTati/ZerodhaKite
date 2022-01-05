@@ -15,7 +15,7 @@ public class DashBoard {
 	@FindBy(xpath="(//button[@type=\"button\"])[3]") private WebElement close;
 	@FindBy(xpath="//span[text()='Buy']") private WebElement BuyButton;
 	@FindBy(xpath="//span[@class='icon icon-trending-up']") private WebElement chart;
-	
+	@FindBy(xpath="")private WebElement xyz;
 	
 public DashBoard(WebDriver driver) {
 		PageFactory.initElements(driver, this);
