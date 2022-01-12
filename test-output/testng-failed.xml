@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <parameter name="url1" value="https://www.facebook.com/"/>
+    <parameter name="pass" value="jklmnop"/>
+    <parameter name="id" value="abcdefghi"/>
+    <parameter name="url" value="https://www.google.co.in/"/>
+    <parameter name="Browser" value="Chrome"/>
+    <classes>
+      <class name="pojo.Parametrization">
+        <methods>
+          <include name="launchBrowser" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- pojo.Parametrization -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

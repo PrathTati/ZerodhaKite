@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Test">
+		<parameter name="Browser" value="Chrome"></parameter>
+		<parameter name="url" value="https://www.google.co.in/"></parameter>
+		<parameter name="url1" value="https://www.facebook.com/"></parameter>
+		<parameter name="id" value="abcdefghi"></parameter>
+		<parameter name="pass" value="jklmnop"></parameter>
+		
+		<classes>
+			<class name="pojo.Parametrization">
+			</class>
+
+		</classes>
+
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
